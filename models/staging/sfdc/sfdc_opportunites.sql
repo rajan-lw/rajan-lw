@@ -3,17 +3,8 @@ select
     o.id ,
     o.account_id as account_id,
     --
-    act.account_name,
-    act.account_type,
-    act.market_segment,
-    act.account_profile,
-    act.company_size,
-    act.aws,
-    act.gcp,
-    act.azure,
-    act.industry,
-    act.sub_industry,
-    act.billing_country
+    act.account_name
+    ,act.billing_country
     ,record_type_id as record_type_id,
     r.name as record_type_name,
     o.is_won as is_won,
