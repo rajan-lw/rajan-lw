@@ -1,6 +1,6 @@
 select
     opp.*,
-
+    --Total Price (TCV)
     agg.total_price_paid_storage_agent_enterprise as total_price_paid_storage_agent_enterprise,
     agg.total_price_paid_storage_agent_standard as total_price_paid_storage_agent_standard,
     agg.total_price_paid_storage_account_standard as total_price_paid_storage_account_standard,
